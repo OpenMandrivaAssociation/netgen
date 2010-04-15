@@ -4,7 +4,7 @@
 Name:		netgen
 Group:		Sciences/Physics
 Version:	4.9.11
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Automatic 3d tetrahedral mesh generator
 License:	GPL
 URL:		http://www.hpfem.jku.at/netgen/
@@ -15,6 +15,8 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	ffmpeg-devel
 BuildRequires:	GL-devel
 BuildRequires:	jpeg-devel
+BuildRequires:	opencascade
+BuildRequires:	opencascade-devel
 BuildRequires:	openmpi-devel
 BuildRequires:	tcl-devel
 BuildRequires:	tk-devel
@@ -48,7 +50,7 @@ Gerstmayr (STL geometry) Robert Gaisbauer (OpenCascade interface).
 
 #-----------------------------------------------------------------------
 %build
-%configure2_5x
+%configure2_5x --with-occ=%{_datadir}/opencascade
 %make
 
 %if %{with_demoapp}
