@@ -4,7 +4,7 @@
 Name:		netgen
 Group:		Sciences/Physics
 Version:	4.9.11
-Release:	%mkrel 2
+Release:	%mkrel 3
 Summary:	Automatic 3d tetrahedral mesh generator
 License:	GPL
 URL:		http://www.hpfem.jku.at/netgen/
