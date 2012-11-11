@@ -1,0 +1,13 @@
+--- netgen-4.9.11/ng/ngpkg.cpp.orig	2010-02-24 17:36:13.112886022 -0300
++++ netgen-4.9.11/ng/ngpkg.cpp	2010-02-24 17:36:25.696882556 -0300
+@@ -32,9 +32,7 @@
+ 
+ // #include <parallel.hpp>
+ 
+-// to be sure to include the 'right' togl-version
+-#include "togl_1_7.h"
+-// #include "Togl2/togl.h"
++#include "Togl1.7/togl.h"
+ 
+ extern bool nodisplay;
+ 
