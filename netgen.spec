@@ -4,7 +4,7 @@ Version:	4.9.13
 Release:	3
 Summary:	Automatic 3d tetrahedral mesh generator
 License:	GPL
-URL:		http://www.hpfem.jku.at/netgen/
+URL:		https://www.hpfem.jku.at/netgen/
 Source0:	%{name}-%{version}.tar.gz
 Patch0:		netgen-4.9.13-togl.patch
 Patch1:		netgen-4.9.13-opencascade.patch
