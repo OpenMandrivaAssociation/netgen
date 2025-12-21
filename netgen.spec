@@ -11,6 +11,11 @@ Source0:	http://opencircuitdesign.com/%{name}/archive/%{name}-%{version}.tgz
 # its license is GPL+
 Source1:	%{name}.png
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	imagemagick
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	pkgconfig(tk)
