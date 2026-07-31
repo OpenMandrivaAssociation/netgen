@@ -1,6 +1,6 @@
 Summary:	Netlist comparison (LVS) and format manipulation tool
 Name:		netgen
-Version:	1.5.287
+Version:	1.5.323
 Release:	1
 License:	GPL+
 Group:		Sciences/Mathematics
